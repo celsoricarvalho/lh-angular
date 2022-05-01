@@ -1,0 +1,21 @@
+<div class="container1">
+    <div class="title">
+        <h1>Vagas Disponiveis</h1>
+    </div>
+    <div class="subtitle">
+        <h2>Confira as vagas disponiveis desejamos boa sorte </h2>
+    </div>
+
+    <ul class="vagas">
+        <li class="card" style="width: 18rem" *ngFor="let vaga of vagas">
+            <img height="200px" src="assets/img/{{vaga.img}}"  alt="vaga">
+            <div class="card-body">
+                <h5 class="card-title">ID: {{vaga.id}}</h5>
+                <h2 class="card-title">{{vaga.nome}}</h2>
+                <i class="card-title">{{vaga.descricao}}</i><br> <br>
+                <span><h3>Salário:  $ {{vaga.salario}} </h3></span>
+            </div>
+        </li>
+    </ul>
+    <div class="space"></div>
+</div>   

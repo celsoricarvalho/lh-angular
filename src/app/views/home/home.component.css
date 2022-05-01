@@ -1,0 +1,85 @@
+.home{
+    margin-left:200px;
+}
+.home h1{
+    text-align:center;
+}
+.home h2{
+    text-align: center;
+}
+
+.container{
+  background-color: orange;
+}
+
+.banner h1{
+   margin: 25px 25px;
+   text-align: center;
+   color: greenyellow;
+}
+
+.banner .card1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:1000px) {
+  .banner .card1 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.banner .card-item{
+  display: table;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  margin: 25px;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+}
+
+
+
+.banner .card-item i{
+  color: rgb(221, 221, 6);
+}
+
+.banner .card-item:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.banner .card-item p{
+   display: table-cell;
+   vertical-align: middle;
+}
+
+a{
+  text-align: center;
+  box-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  color: black;
+  margin: 25px;
+  width: 500px;
+  height: 50px;
+  color: whitesmoke;
+  font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(225deg,#68aff1 0%,#0f3986 48.15%,#013ee7 100%);
+}
+
+a p{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+a:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 2s;
+}

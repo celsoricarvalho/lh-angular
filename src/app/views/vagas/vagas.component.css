@@ -1,0 +1,52 @@
+*{
+    overflow-x: hidden;
+}
+
+.container1{
+    margin-left: 200px;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    margin: 50px 25px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    min-width: 60%;
+}
+
+
+.card:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover{
+    color: red;
+}
+
+
